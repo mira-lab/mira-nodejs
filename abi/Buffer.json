@@ -1,0 +1,138 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "MAXKEYS",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "keysCount",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "publicKey",
+        "type": "string"
+      },
+      {
+        "indexed": true,
+        "name": "contractAddress",
+        "type": "address"
+      }
+    ],
+    "name": "PublicKeyControlChange",
+    "type": "event"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "factoryAddress",
+        "type": "address"
+      }
+    ],
+    "name": "setMiraFactory",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "masterNode",
+        "type": "address"
+      }
+    ],
+    "name": "addMasterNode",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "key",
+        "type": "string"
+      }
+    ],
+    "name": "addKey",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_address",
+        "type": "address"
+      }
+    ],
+    "name": "isMasterNode",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "contractAddress",
+        "type": "address"
+      }
+    ],
+    "name": "giveKey",
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "miralab.certificateemitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main_loop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main_loop.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcore-lib": "^0.15.0",
+    "mira-box-farm-contracts": "git+https://git@github.com/mira-lab/MiraBoxFarm.git#dev2",
+    "promise-mysql": "^3.3.1",
+    "sjcl-all": "^1.0.1",
+    "web3": "^1.0.0-beta.35"
+  }
+}
